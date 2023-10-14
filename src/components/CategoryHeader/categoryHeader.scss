@@ -1,0 +1,111 @@
+@import 'src/styles/variables';
+
+.inner-categoryheader-component {
+  background: $light-blue !important;
+  position: relative;
+
+  padding-left: 4.5% !important;
+  padding-right: 4% !important;
+  .btn {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+
+    .inner-categoryheader {
+
+      overflow: hidden;
+      scroll-behavior: smooth;
+      margin-right: 30px;
+      white-space: nowrap;
+      margin-left:10px;
+      width: 99% !important;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .menu {
+
+        background: $light-blue !important;
+
+        & .ant-menu-item {
+          height: 44px;
+          font-family: NeueHaasUnicaBold !important;
+          font-size: 13px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: -0.08px;
+          //text-align: center;
+          color: $default-text-color;
+          opacity: 0.5;
+          //min-width: 100px;
+          padding: 15px 20px !important;
+          margin: 0 20px 0 0px !important;
+          user-select: none;
+
+          &:hover {
+            color: #131415 !important;
+          }
+
+          &-selected {
+            color: #131415 !important;
+            font-family: NeueHaasUnicaBold !important;
+            font-weight: bold;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.08px;
+            text-align: center;
+            opacity: 1;
+            &::after {
+              border-bottom-color: black !important;
+            }
+          }
+
+          &:hover::after {
+            border-bottom-color: black !important;
+          }
+
+          .count-container {
+            border-radius: 11.5px;
+            background-color: rgba(75, 104, 239, 0.1);
+            display: inline;
+            margin-left: 10px;
+            padding: 0 9px 1px;
+
+            .count {
+              font-family: NeueHaasUnicaRegular;
+              font-size: 12px;
+              font-weight: bold;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              text-align: center;
+              color: #131415 !important;
+              opacity: 1 !important;
+            }
+          }
+        }
+      }
+    }
+
+    .rightArrow {
+      transform: rotate(270deg);
+      position: absolute;
+      margin-top: 10px;
+      z-index: 1;
+      user-select: none;
+    }
+    .leftArrow {
+      transform: rotate(90deg);
+      position: absolute;
+      user-select: none;
+      margin-top: 10px;
+      z-index: 1;
+      margin-right: 100%;
+    }
+  }
+}

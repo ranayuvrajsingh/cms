@@ -1,0 +1,30 @@
+@mixin base-tag {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 1px;
+  width: fit-content;
+  min-height: 22px;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 3.5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    //-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #8b9197;
+    //-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+}

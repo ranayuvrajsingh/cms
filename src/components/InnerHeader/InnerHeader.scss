@@ -1,0 +1,69 @@
+@import 'src/styles/variables';
+
+.inner-header-component {
+  box-shadow: 0 0px 8px 0 rgba(13, 19, 25, 0.08);
+  background: $white;
+  border: solid 1px #e4e8f0;
+  padding-left: 7%;
+
+  .ant-menu-item {
+    height: 44px;
+    font-family: NeueHaasUnicaBold !important;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.08px;
+    text-align: center;
+    color: #0c0f16;
+    opacity: 0.5;
+    //min-width: 100px;
+    padding: 15px 20px !important;
+    margin: 0 20px 0 0 !important;
+    user-select: none;
+    .disabled-menu {
+      &:hover {
+        color: none;
+      }
+    }
+    .selected-menu {
+      &:hover {
+        color: $main !important;
+      }
+    }
+
+    &-selected {
+      color: $main !important;
+      //border-bottom: 2px solid $main;
+      font-family: NeueHaasUnicaBold !important;
+      font-weight: bold;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.08px;
+      text-align: center;
+      opacity: 1;
+    }
+
+    .count-container {
+      border-radius: 11.5px;
+      background-color: rgba(75, 104, 239, 0.1);
+      display: inline;
+      margin-left: 10px;
+      padding: 0 9px 1px;
+
+      .count {
+        font-family: NeueHaasUnicaRegular;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: $main;
+        opacity: 1 !important;
+      }
+    }
+  }
+}

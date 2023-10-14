@@ -1,0 +1,48 @@
+.field-container {
+  .ant-input-affix-wrapper {
+    background-color: #f4f5f7 !important;
+    border: 1px solid #f4f5f7;
+  }
+
+  .ant-form-item-has-error {
+    .ant-picker {
+      border: 1px solid #ff4d4f;
+
+      &-suffix {
+        svg {
+          fill: #ff4d4f;
+        }
+      }
+    }
+  }
+}
+
+.ant-picker {
+  width: 100%;
+  background-color: #f4f5f7 !important;
+  border: none;
+  min-height: 50px;
+  border-radius: 4px;
+
+  &-input {
+    input {
+      font-family: NeueHaasUnicaRegular;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      color: #131415;
+    }
+
+    &::placeholder {
+      opacity: 0.3;
+      font-family: NeueHaasUnicaPro;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #131415 !important;
+    }
+  }
+}

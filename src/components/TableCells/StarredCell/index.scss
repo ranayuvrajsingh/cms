@@ -1,0 +1,48 @@
+// .checked{
+//     background: #F2733C;
+//     border: 2px solid #F2733C;
+// }
+
+// .unchecked{
+//     background: #FFFFFF;
+//     border: 2px solid #37352F;
+//     color: 2px solid blue;
+// }
+
+.switch-div{
+    display: inline-block;
+    flex-direction: row;
+
+.toggle{
+    // background-color: rgb(238, 238, 238);
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    // background: rgb(57, 45, 110);
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 0px;
+    // transition: white 0.2s;
+    border: 1px solid #37352F;
+}
+.show{
+    
+        // background-color: black;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        // display: flex;
+        // flex-direction: row;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        padding-left: 2px;
+        color: #000000;
+        // flex-grow: 0;
+        
+}
+}

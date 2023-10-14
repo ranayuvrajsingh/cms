@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+.ant-slider,
+.ant-slider-with-marks {
+  border: '1px solid black';
+
+  .ant-slider-rail {
+    height: 8px !important;
+  }
+  
+  .ant-slider-dot {
+    height: 18px !important;
+    width: 2px !important;
+    border-radius: 100px !important;
+    border: 2px solid #d7dee8;
+    top: -4px;
+  }
+
+  .ant-slider-handle {
+    border-radius: 50%;
+    background-color: $main;
+    padding: 10px;
+    position: relative;
+    border: none;
+    margin-top: -6px !important;
+  }
+
+  .ant-slider-handle::after {
+    content: '';
+    top: 5px;
+    left: 45%;
+    border-radius: 100px;
+    position: absolute;
+    height: 10px;
+    width: 2.4px;
+    background-color:$white;
+  }
+
+  .ant-slider-mark {
+    top: 30px;
+  }
+}

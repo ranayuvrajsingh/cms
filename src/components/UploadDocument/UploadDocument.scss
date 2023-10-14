@@ -1,0 +1,48 @@
+.upload-document {
+  .ant-upload.ant-upload-drag .ant-upload-drag-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 180px;
+  }
+  .ant-upload.ant-upload-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+  }
+  .upload-icon {
+    width: 30px;
+  }
+  .upload-file {
+    padding: 15px;
+    border: dashed 1px rgba(135, 149, 162, 0.4) !important;
+  }
+  // margin-top: 15px;
+  // .ant-upload:hover,
+  // .ant-upload {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   height: 50px;
+  //   border-radius: 5px;
+  // }
+  .ant-upload.ant-upload-drag {
+    width: 200px;
+    height: 200px;
+    border: dashed 1px rgba(135, 149, 162, 0.4) !important;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  .upload-required {
+    border: 1px dashed red !important;
+  }
+}

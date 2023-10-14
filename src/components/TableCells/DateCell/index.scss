@@ -1,0 +1,15 @@
+.listing-row-text {
+  font-family: NeueHaasUnicaRegular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131415;
+
+  &.bold {
+    font-weight: bold;
+    font-family: NeueHaasUnicaBold;
+  }
+}

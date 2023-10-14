@@ -1,0 +1,21 @@
+.ant-input-textarea {
+  textarea {
+    height: 140px !important;
+    padding-top: 4px;
+  }
+
+  &:after {
+    position: relative;
+    bottom: 21px;
+    right: 12px;
+    font-family: NeueHaasUnicaRegular;
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #7a869a;
+  }
+}

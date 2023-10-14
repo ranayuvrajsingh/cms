@@ -1,0 +1,28 @@
+
+  .ub-modal {
+    margin-right:50%;
+    margin-left:150px;
+    margin-top:0px;
+    width: 80%;
+    height:300px;
+    .ant-modal-content {
+      padding: 35px !important;
+      border-radius: 8px;
+      width: 180%;
+      
+    }
+    .ant-modal-body {
+      padding: 0;
+    }
+    .ant-modal-close-x {
+      margin: 8px 10px 0 0;
+    }
+    .ant-modal-close {
+      top: 18px;
+    }
+    .ant-modal-header {
+      margin: 0;
+      padding: 0 0 20px 0;
+    }
+  }
+

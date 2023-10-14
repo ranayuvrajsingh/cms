@@ -1,0 +1,100 @@
+.listing-row-text1 {
+  font-family: NeueHaasUnicaRegular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #131415;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+  &.bold {
+    font-weight: bold;
+    font-family: NeueHaasUnicaBold;
+  }
+ 
+}
+.text{
+  &::first-letter{
+    text-transform: capitalize
+  }
+}
+
+.sorted {
+  padding-left: 10px;
+}
+
+.type{
+  width: 46px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 20px;
+text-transform: uppercase;
+color: #F2733C;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -2px 0px;
+}
+
+.author{
+  width: 43px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #0C8CE9;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding-right: 2px;
+}
+
+.dot{
+  
+  width: 7px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #6D6D6D;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.publishedOn{
+  
+width: 59px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #6D6D6D;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.title{
+
+  display: flex;
+flex-direction: row;
+padding: 8px 25px 8px 0px;
+font-weight: 700;
+background: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}

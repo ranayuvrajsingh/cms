@@ -1,0 +1,17 @@
+.listing-row-image {
+  width: 75px;
+  height: 60px;
+  border-radius: 3px;
+  object-fit: cover;
+
+  img {
+    border-radius: 3px;
+  }
+}
+.trending{
+  position: absolute;
+  top: 0;
+  left:-1%;
+  //bottom: 4%;
+  //right: 20%;
+}

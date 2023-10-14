@@ -1,0 +1,59 @@
+.multiple-delete-component{
+    position: fixed;
+    width: 440px;
+    height: 60px;
+    left: 500px;
+     top: 500px;
+    background: #F2733C;
+    border-radius: 10px;
+    display: flex;
+
+    .multiple-delete-left{
+
+        
+            position: relative;
+            width: 50%;
+            height: 22px;
+            margin-top:20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            // display: flex;
+            // align-items: center;
+            color: #FFFFFF;
+            // flex: none;
+            // order: 1;
+            // flex-grow: 0;
+            padding-left: 10px;
+     
+        
+
+       
+    }
+    .multiple-delete-right{
+        position:relative;
+        margin-top:18px;
+        padding-left:140px;
+       width:10%;
+
+       .trashicon{
+        color:white;
+        &:hover{
+            cursor:pointer;
+            color:black;
+           
+    }
+
+       }
+        
+       
+       
+       
+       
+    
+    }
+
+   
+}

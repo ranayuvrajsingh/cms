@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.name-initial-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  min-width: 36px;
+  max-width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  font-size: 18px;
+  background-color: $main;
+  color: $white;
+}

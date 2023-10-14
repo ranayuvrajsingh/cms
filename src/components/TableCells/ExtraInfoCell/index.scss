@@ -1,0 +1,119 @@
+
+.divider{
+    height:30px;
+    width:1px;
+    margin-left:2px;
+    margin-right:3px;
+    background-color: #000000;
+}
+.listing-row-text {
+// border-left: 1px solid black;
+
+
+
+.topbar{
+    display: flex;
+  
+    .tag{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 4px;
+    padding: 5px 12px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    background: #D6E4EE;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    }
+    
+    .city{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 5px 12px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    background: #F1E1E9;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+    }
+    .contributor{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 12px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    
+    /* Tag/Yellow */
+    
+    background: #FAECCC;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+}
+
+.checks{
+    display: flex;
+    // margin-top: 4px;
+    .checkit{
+        
+        // margin-top: 3px;
+        width: 23px;
+        margin-right: 7px;
+    height: 23px;
+    left: calc(50% - 20px/2);
+    // top: calc(50% - 20px/2);
+    
+    background: #FFF9F6;
+    /* Main/Highlight */
+    
+    border: 2px solid #F2733C;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    
+    }
+    
+    .app{
+    //     width: 31px;
+    // height: 22px;
+    
+    /* Body/1_medium */
+    margin-top: 8px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    // line-height: 22px;
+    /* identical to box height, or 138% */
+    padding-left: 2px;
+    // align-items: center;
+    color: #000000;
+    /* Inside auto layout */
+    // order: 1;
+    flex-grow: 0;
+    }
+}
+
+}

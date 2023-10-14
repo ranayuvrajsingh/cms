@@ -1,0 +1,3 @@
+#Eslint ignore config
+node_modules/
+.git*

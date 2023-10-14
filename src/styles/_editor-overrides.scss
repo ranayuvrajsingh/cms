@@ -1,0 +1,85 @@
+.tox {
+  &.tox-tinymce {
+    border: none;
+    border-radius: 4px;
+    height: 330px !important;
+    background-color: $light-blue !important;
+    cursor: pointer !important;
+
+    .tox-editor-header {
+      position: absolute !important;
+      bottom: 0 !important;
+      justify-content: center !important;
+      align-self: center !important;
+      justify-self: center !important;
+      background-color: $light-blue !important;
+
+      .tox-toolbar__primary {
+        background-image: none;
+        background-color: $light-blue !important;
+
+        .tox-toolbar__group {
+          padding: 0;
+          border-radius: 4px;
+          border: solid 1px #7a869a;
+          background-color: $light-blue;
+          margin-right: 5px !important;
+
+          
+
+          button.tox-tbtn {
+            .tox-icon {
+              svg {
+                path {
+                  fill: rgba(12, 15, 22, 0.6);
+                }
+              }
+            }
+
+            &.tox-tbtn--enabled {
+              background-color: $white;
+              margin: 0 1px !important;
+              height: 100%;
+
+              .tox-icon {
+                svg {
+                  path {
+                    fill: $black;
+                  }
+                }
+              }
+            }
+          }
+
+        
+          
+          button.tox-tbtn[aria-label='Font sizes'] {
+            width: 60px;
+          }
+        }
+      }
+    }
+
+    .tox-editor-container {
+      padding-bottom: 50px;
+
+      iframe {
+        background-color: $light-blue !important;
+      }
+    }
+  }
+
+  .tox-notifications-container {
+    display: none;
+  }
+}
+
+.ant-form-item-has-error {
+  .tox-tinymce {
+    border: 1px solid #ff4d4f !important;
+  }
+}
+
+.tox-selected-menu {
+  max-height: 220px !important;
+}

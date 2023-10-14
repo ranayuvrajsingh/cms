@@ -1,0 +1,74 @@
+.field-container {
+  .ant-input-affix-wrapper {
+    background-color: #f4f5f7 !important;
+    border: 1px solid #f4f5f7;
+
+    input {
+      border: none !important;
+    }
+
+    .ant-input-suffix {
+      align-items: flex-end;
+      font-family: Roboto;
+      font-size: 11px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #7a869a;
+    }
+  }
+
+  .ant-form-item-has-error {
+    .ant-input-affix-wrapper {
+      border: 1px solid #ff4d4f !important;
+
+    }
+  }
+
+}
+.ant-input, .ant-input-number, .ant-input-password {
+  padding: 4px 11px 4px 11px;
+  min-height: 50px;
+  width: 100%;
+  border-radius: 4px !important;
+  border: none !important;
+  background-color: #f4f5f7 !important;
+
+  font-family: NeueHaasUnicaRegular;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  color: #131415;
+
+  .ant-input-number-input {
+    margin-top: 5px;
+    padding-left: 2px;
+  }
+
+  .ant-input-number-handler-wrap {
+    .ant-input-number-handler {
+      .anticon {
+        font-size: 11px;
+      }
+
+      svg {
+        fill: $main;
+      }
+    }
+
+  }
+
+  &::placeholder {
+    opacity: 0.3;
+    font-family: NeueHaasUnicaRegular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #131415 !important;
+  }
+}

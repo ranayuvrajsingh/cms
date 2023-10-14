@@ -1,0 +1,47 @@
+.ant-select-selector {
+  min-height: 50px;
+  width: 100%;
+  border-radius: 4px !important;
+  border: none !important;
+  background-color: #f4f5f7 !important;
+
+  .ant-select-selection-placeholder {
+    opacity: 0.3;
+    font-family: NeueHaasUnicaRegular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #131415 !important;
+  }
+
+  .ant-select-selection-placeholder,
+  .ant-select-selection-item {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ant-select {
+  .ant-select-clear {
+    right: 14px;
+    top: 46%;
+  }
+}
+
+.field-container {
+  .ant-select-selection-item {
+    //margin-top: 16px !important;
+  }
+
+  .ant-select-single .ant-select-selection-search-input {
+    padding-top: 8px !important;
+  }
+
+  .ant-form-item-has-error {
+    .ant-select-selector {
+      border: 1px solid #ff4d4f !important;
+    }
+  }
+}

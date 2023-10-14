@@ -1,0 +1,62 @@
+
+.tag {
+  &-generated {
+    @include base-tag;
+    color: #60c634;
+    background-color: rgba(96, 198, 52, 0.1);
+  }
+
+  &-pending {
+    @include base-tag;
+    color: #ff963a;
+    background-color: rgba(255, 150, 58, 0.1);
+  }
+
+  &-company {
+    @include base-tag;
+    color: #2e54ff;
+    background-color: rgba(95, 54, 211, 0.1);
+  }
+
+  &-college {
+    @include base-tag;
+    color: #60c634;
+    background-color: rgba(96, 198, 52, 0.1);
+  }
+
+  &-pending {
+    @include base-tag;
+    color: #ff963a;
+    background-color: rgba(255, 150, 58, 0.1);
+  }
+
+  &-secondary {
+    @include base-tag;
+    color: #333333;
+    background-color: rgba(95, 54, 211, 0.1);
+  }
+
+  &-primary {
+    @include base-tag;
+    color: #333333;
+    background-color: rgba(240, 243, 250, 1);
+  }
+
+  &-light-blue {
+    @include base-tag;
+    color: #140b2e;
+    background-color: #f7f7fb;
+  }
+
+  &-company-position {
+    @include base-tag;
+    color: #333333;
+    background-color: rgba(95, 54, 211, 0.1);
+  }
+
+  &-college-position {
+    @include base-tag;
+    color: #333333;
+    background-color: rgba(95, 54, 211, 0.1);
+  }
+}

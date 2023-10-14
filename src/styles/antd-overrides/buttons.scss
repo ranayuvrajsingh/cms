@@ -1,0 +1,29 @@
+.ant-btn {
+  border-radius: 6px !important;
+  height: 44px !important;
+  background-color: $main;
+  user-select: none !important;
+
+  &-primary {
+    width: 144px;
+  }
+
+  &-text-button {
+    background-color: transparent;
+    border: none;
+    transition: background-color 230ms ease-out;
+
+    span {
+      font-family: NeueHaasUnicaBold;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #4b68ef;
+    }
+
+    &:hover {
+      transition: background-color 230ms ease-out;
+      background-color: rgba(75, 104, 239, 0.2);
+    }
+  }
+}

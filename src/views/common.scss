@@ -1,0 +1,52 @@
+@import '../styles/variables';
+
+.wrapper {
+  background-color: $purple-very-light !important;
+  height: 100vh;
+
+  .ant-layout-content.site-layout {
+    padding: 0 !important;
+  }
+
+  .ant-layout-header {
+    height: unset !important;
+    padding: unset !important;
+    color: unset !important;
+    line-height: unset !important;
+    background: unset !important;
+  }
+
+  .ant-affix {
+    background-color: rgb(240, 242, 245) !important;
+  }
+
+  .container {
+    min-height: calc(100vh - 214px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: $light-blue;
+
+
+    .ant-table-tbody {
+      tr {
+        td {
+          &:nth-child(1) {
+            //white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 120px;
+
+          }
+
+          &:nth-child(2) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 120px;
+
+          }
+        }
+      }
+    }
+  }
+}

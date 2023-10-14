@@ -1,0 +1,39 @@
+@import "src/styles/variables.scss";
+
+.add-new-tag-container {
+  display: flex;
+  background-color: $light-blue;
+  padding: 12px 16px 9px 16px;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(176, 177, 178, 0.2);
+
+  input {
+    background-color: $white !important;
+    border-radius: 4px;
+    margin-right: 20px;
+    height: 38px !important;
+    min-height: unset !important;
+
+    &::placeholder {
+      opacity: 0.2;
+      font-family: NeueHaasUnicaRegular;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #131415 !important;
+    }
+  }
+
+  .ant-btn {
+    width: 85px;
+    height: 38px !important;
+    font-family: NeueHaasUnicaBold;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: $white;
+  }
+}

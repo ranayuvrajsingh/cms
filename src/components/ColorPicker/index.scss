@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+
+.color-picker {
+  display: flex;
+  //background-color: $light-blue;
+  height: 50px;
+  width: 100%;
+  border-radius: 4px !important;
+  border: none !important;
+  background-color: #f4f5f7 !important;
+  font-family: NeueHaasUnicaRegular;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  color: #131415;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}

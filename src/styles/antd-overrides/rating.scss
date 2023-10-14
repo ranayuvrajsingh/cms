@@ -1,0 +1,25 @@
+.ant-rate {
+  .ant-rate-star {
+    &.ant-rate-star-zero {
+      svg {
+        fill: rgba(#7A869A, 0.45);
+      }
+    }
+
+    > div {
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+
+  &-disabled {
+    .ant-rate-star {
+      > div {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
+}

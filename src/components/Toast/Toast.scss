@@ -1,0 +1,34 @@
+.ant-notification-notice-message {
+  display: none;
+}
+
+.toster-line {
+  width: 4px;
+  min-height: 70px;
+  border-radius: 4px;
+}
+
+.toster {
+  border-radius: 4px;
+  padding: 10px;
+  transform: scale(0.89);
+}
+
+.toster-container {
+  min-height: 70px;
+}
+
+.toster-title {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  color: #0d1319;
+}
+
+.toster-desc {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 500;
+  letter-spacing: -0.26px;
+  color: #838e9b;
+}

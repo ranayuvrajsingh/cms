@@ -1,0 +1,22 @@
+.pagination{
+    // background-color: black;
+    align-items: flex-end;
+    margin-left:-300px;
+    .paginator {
+        border: 1px white solid;
+        margin-left: 50%;
+        width: 300px;
+        align-items: center;
+        .arrow {
+            cursor: pointer;
+            user-select: none;
+            background-color: #FFFFFF;
+            margin: 10px;
+            padding: 15px;
+            border: solid 10px #e4e8f0;
+            border-radius: 6px;
+        }
+    }
+  
+}
+

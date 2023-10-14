@@ -1,0 +1,9 @@
+@import "src/styles/variables";
+
+.read-or-hide {
+  color: $main;
+
+  &:hover {
+    font-weight: 800;
+  }
+}

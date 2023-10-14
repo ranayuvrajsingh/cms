@@ -1,0 +1,120 @@
+.ant-table-wrapper {
+  &.is_editable {
+    table {
+      tr {
+        td {
+          &:not(:last-child) {
+            cursor: pointer;;
+          }
+        }
+      }
+    }
+  }
+
+  table {
+    border-spacing: 0 8px !important;
+    border-collapse: separate !important;
+    background: $light-blue;
+
+    .ant-table-thead {
+      tr {
+        th {
+          padding-left: 20px;
+          background: $light-blue !important;
+          font-family: NeueHaasUnicaBold !important;
+          font-size: 14px !important;
+          color: #7a869a !important;
+          border-bottom: none;
+          padding-top: 0;
+          padding-bottom: 0;
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .ant-table-tbody {
+
+      .ant-table-placeholder {
+        height: calc(100vh - 240px);
+
+      }
+
+      tr {
+        transition: box-shadow 300ms ease-in-out;
+        border-radius: 8px;
+
+        &:hover {
+          box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.15);
+        }
+
+        td {
+          border: none;
+          background-color: $white;
+          box-sizing: border-box;
+          padding-left: 20px;
+          height: 72px;
+
+          &:nth-child(1) {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+          }
+
+          &:nth-last-child(1) {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+.ant-pagination {
+  text-align: right;
+
+  .ant-pagination-total-text {
+    user-select: none;
+    font-family: NeueHaasUnicaRegular;
+    font-size: 13px;
+    font-weight: normal;
+    color: $default-text-color;
+
+    .page-range {
+      color: $main;
+      font-weight: 700;
+    }
+  }
+
+  .ant-pagination-prev {
+    user-select: none;
+    transform: translateY(-4px) scale(-1);
+  }
+
+  .ant-pagination-next {
+    user-select: none;
+    transform: translateY(1.7px);
+  }
+
+  .ant-pagination-jump-next-custom-icon,.ant-pagination-jump-prev-custom-icon {
+    display: none;
+  }
+
+  .ant-pagination-prev, .ant-pagination-next {
+    &.ant-pagination-disabled {
+      rect {
+        opacity: 0.2;
+        border-radius: 4px;
+        background-color: $default-text-color;
+      }
+    }
+  }
+
+  .ant-pagination-item {
+    display: none;
+  }
+}

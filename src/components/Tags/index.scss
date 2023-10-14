@@ -1,0 +1,36 @@
+@import "src/styles/variables";
+
+.tags {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+
+  .ant-tag {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background: #f4f5f7;
+    border-radius: 25px;
+    padding: 3px 15px;
+    transition: background .1s ease-in;
+    align-items: center;
+
+    .tag-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: $main;
+      overflow: hidden;
+      max-width: 80px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .ant-tag-close-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 10px;
+    }
+  }
+
+}

@@ -1,0 +1,106 @@
+@import '../../styles/variables';
+
+.login-form-container {
+  height: 100vh;
+  padding: 3%;
+  flex: 2;
+
+  .login-banner {
+    object-fit: contain;
+  }
+
+  .logo img {
+    width: 25%;
+    margin-bottom: 80px;
+  }
+
+  .login-form {
+    padding: 2% 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+
+    .app-logo {
+      margin-bottom: 10px;
+    }
+
+    .field-label {
+      font-family: NeueHaasUnicaRegular;
+      font-size: 14px;
+      font-weight: normal;
+      color: $default-text-color;
+    }
+
+    .title {
+      font-family: NeueHaasUnicaBold;
+      font-size: 30px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.83;
+      letter-spacing: normal;
+      color: #131415;
+    }
+
+    .sub-title {
+      opacity: 0.6;
+      font-family: NeueHaasUnicaRegular;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #131415;
+    }
+
+    .ant-input-suffix {
+      position: absolute;
+      right: 10px;
+      top: 23px;
+    }
+
+    .ant-input-password {
+      input[type='password'] {
+        padding: 0;
+        min-height: 43px;
+      }
+    }
+  }
+
+  .login-img {
+    width: 100%;
+  }
+
+  .eye {
+    top: 10px;
+    right: -25px;
+    height: 1.4rem;
+    cursor: pointer;
+  }
+
+  .error-banner {
+    background-color: rgba(229, 46, 46, 0.230635);
+  }
+
+  .error-banner img {
+    display: inline;
+  }
+
+  .ant-input-password-icon {
+    font-size: 20px;
+  }
+
+  .back-btn {
+    border-radius: 50%;
+    height: 52px;
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 1px 6px 11px 2px #e3dfdf;
+  }
+
+  .back-btn:focus {
+    outline: unset;
+  }
+}

@@ -1,0 +1,182 @@
+@import "src/styles/variables.scss";
+@import "src/styles/mixins.scss";
+
+.drops{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 6px;
+  width: 100px;
+  height: 40px;
+  background: #F5FAFC;
+  border: 2px solid #59AAD7;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 2px;
+}
+.filter-value-section {
+  @include scrollbar;
+  flex: 1;
+  padding-left: 15px;
+  overflow-y: auto;
+  height: 32vh;
+
+  .filter-value-group {
+    display: flex;
+    flex-direction: column;
+
+    .ant-checkbox-wrapper {
+      font-size: 21px;
+
+      .ant-checkbox {
+        .ant-checkbox-inner {
+          border: solid 2px #dfe1e5;
+        }
+
+        &.ant-checkbox-checked {
+          .ant-checkbox-inner {
+            border: unset;
+          }
+        }
+      }
+    }
+
+    span:nth-of-type(2) {
+      opacity: 0.8;
+      font-family: NeueHaasUnicaRegular;
+      font-size: 14px;
+      color: #212121;
+    }
+  }
+}
+.filter-section {
+
+  
+
+  .ant-modal-content {
+    border-radius: 6px;
+    background-color: #ffffff;
+
+    .ant-modal-header {
+      border-radius: inherit;
+      padding: 19px 24px;
+    }
+
+    .ant-modal-close-x {
+      padding-top: 7px
+    }
+
+    .ant-modal-body {
+      padding: 5px 0 0 0;
+      background-color: #f7f8f8;
+      border-radius: inherit;
+
+      .filter-category-section {
+        flex: 1;
+        background-color: $white;
+
+        .filter-category {
+          cursor: pointer;
+          transition: background-color 200ms ease-in;
+          padding: 12px 24px;
+
+          svg {
+            transform: rotate(270deg);
+
+            rect {
+              stroke: none;
+              fill: none;
+            }
+          }
+
+          &:hover {
+            transition: background-color 200ms ease-in;
+            background-color: rgba(213, 213, 213, 0.45);
+          }
+
+          .filter-label {
+            font-family: NeueHaasUnicaRegular;
+            font-size: 16px;
+            letter-spacing: normal;
+            color: #212121;
+            text-transform: capitalize;
+            padding-right: 10px;
+          }
+
+          span {
+            opacity: 0.4;
+            font-family: NeueHaasUnicaBold;
+            font-size: 14px;
+            font-weight: 700;
+            color: #212121;
+          }
+
+          &.active {
+            .filter-label {
+              font-family: NeueHaasUnicaBold;
+              font-weight: 700;
+              letter-spacing: normal;
+              color: $main;
+            }
+
+            svg {
+              path {
+                stroke: $main;
+                stroke-width: 2px;
+              }
+            }
+          }
+
+        }
+      }
+
+      .filter-value-section {
+        @include scrollbar;
+        flex: 1;
+        padding-left: 15px;
+        overflow-y: auto;
+        height: 32vh;
+
+        .filter-value-group {
+          display: flex;
+          flex-direction: column;
+
+          .ant-checkbox-wrapper {
+            font-size: 21px;
+
+            .ant-checkbox {
+              .ant-checkbox-inner {
+                border: solid 2px #dfe1e5;
+              }
+
+              &.ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  border: unset;
+                }
+              }
+            }
+          }
+
+          span:nth-of-type(2) {
+            opacity: 0.8;
+            font-family: NeueHaasUnicaRegular;
+            font-size: 14px;
+            color: #212121;
+          }
+        }
+      }
+
+      .buttons {
+        border-radius: inherit;
+        margin-top: 5px;
+        background-color: $white;
+        padding: 18px 24px;
+
+      }
+    }
+  }
+}

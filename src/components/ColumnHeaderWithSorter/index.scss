@@ -1,0 +1,53 @@
+@import "src/styles/variables";
+
+.column-header-sorter {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+
+  &:hover {
+    transition: background-color 250ms ease-in;
+    background-color: rgba(213, 213, 213, 0.25);
+    border-radius: 6px;
+
+    .ant-table-cell {
+      background-color: red !important;
+    }
+  }
+
+  * {
+    font-family: NeueHaasUnicaBold !important;
+    font-size: 14px !important;
+    color: $default-text-color !important;
+    border-bottom: none;
+  }
+
+  > div {
+    margin-right: 10px;
+    align-self: center;
+  }
+
+  .sort-button {
+    transition: all 0.5ms ease-out;
+    transform: translateY(3px);
+
+    &.active-sort {
+      rect {
+        fill: $main;
+      }
+
+      path {
+        stroke: $white;
+      }
+
+      &.reverse {
+        svg {
+          transform: scaleY(-1);
+        }
+      }
+    }
+  }
+}
